@@ -24,7 +24,7 @@ if (turtle == hare)
 return (1);
 
 turtle = turtle->next;
-hare = hare->next->nex;
+hare = hare->next->next;
 }
 return (0);
 }
