@@ -4,7 +4,7 @@
 
 class Square:
     '''Represents a square'''
-    def __init__():
+    def __init__(self, size=0):
         '''Initializes a square
 Args:
         size(int): the size of the square
