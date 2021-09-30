@@ -30,7 +30,7 @@ Args:
 
     def my_print(self):
         '''Print square with # character'''
-        for i in range(0, self._size):
+        for i in range(0, self.__size):
             [print('#', end="") for x in range(self.__size)]
             print("")
         if self.__size == 0:
