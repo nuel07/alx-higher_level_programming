@@ -10,6 +10,7 @@ Args:
         size(int): the size of the square
         '''
         self.size = size
+
     @property
     def size(self):
         '''Get/set current size of square'''
