@@ -33,6 +33,7 @@ class Square:
 
     @position.setter
     def position(self, value):
+        """Check eligibility of values"""
         if(not isinstance(value, tuple) or
            len(value) != 2 or
            not all(isinstance(num, int) for num in value) or
