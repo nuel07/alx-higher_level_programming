@@ -26,12 +26,12 @@ Args:
 
     def area(self):
         '''Return current area of the square'''
-        return (self.___size * self._size)
+        return (self.__size * self.__size)
 
     def my_print(self):
         '''Print square with # character'''
         for i in range(0, self._size):
-            [print('#', end="") for x in range(self._size)]
+            [print('#', end="") for x in range(self.__size)]
             print("")
         if self.__size == 0:
             print("")
