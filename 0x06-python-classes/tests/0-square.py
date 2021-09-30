@@ -4,4 +4,4 @@ class Square:
     '''Defines a square'''
     pass
 s = Square()
-print()
+print(s)
