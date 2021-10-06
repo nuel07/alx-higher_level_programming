@@ -1,0 +1,1 @@
+This directory focuses on understanding the everything is object concept in python. Most of the files are text files with simple answers to object related questions.
