@@ -1,0 +1,1 @@
+In this directory inheritance is the main area of focus, in python.
