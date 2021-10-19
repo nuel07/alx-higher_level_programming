@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Defines base model class"""
-
+"""Defines a base model class."""
 import json
 import csv
 import turtle
@@ -24,9 +23,8 @@ class Base:
             self.id = id
         else:
             Base.__nb_objects += 1
-            self.id = Base._nb_objects
+            self.id = Base.__nb_objects
 
-    
     @staticmethod
     def to_json_string(list_dictionaries):
         """Return the JSON serialization of a list of dicts.
