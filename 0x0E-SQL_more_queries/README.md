@@ -1,0 +1,1 @@
+This directory contains more MySQL concepts, like permissions, join types, and many more.
