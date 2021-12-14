@@ -1,0 +1,1 @@
+The beginning of an interesting and fun learning journey with javascript. This is the main goal in this directory. To get acquaintyed with JS basics and more.
