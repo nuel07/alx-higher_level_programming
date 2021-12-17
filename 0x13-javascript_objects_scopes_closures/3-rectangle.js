@@ -8,7 +8,7 @@ module.exports = class Rectangle {
   print () {
     for (let x = 0; x < this.height; x++) {
       let row = '';
-      for (let r = 0; r < this.height; r++) row += 'X';
+      for (let r = 0; r < this.width; r++) row += 'X';
       console.log(row);
     }
   }
