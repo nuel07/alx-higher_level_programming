@@ -4,12 +4,21 @@ module.exports = class Rectangle {
     if (w > 0 && h > 0) { [this.width, this.height] = [w, h]; }
   }
 
-  // instance method
   print () {
-    for (let x = 0; x < this.height; x++) {
+    for (let h = 0; h < this.height; h++) {
       let row = '';
       for (let r = 0; r < this.width; r++) row += 'X';
       console.log(row);
     }
+  }
+
+  rotate () {
+    this.width = this.height;
+    this.height = this.width;
+  }
+
+  double () {
+    this.width = this.width * 2;
+    this.height = this.height * 2;
   }
 };
