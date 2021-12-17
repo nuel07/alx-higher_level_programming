@@ -1,0 +1,1 @@
+In this directory i focus on javascript objects and handling them.
