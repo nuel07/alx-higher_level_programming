@@ -1,0 +1,1 @@
+In this project directory, I learnt about object relational mapping and joining python and Databases.
