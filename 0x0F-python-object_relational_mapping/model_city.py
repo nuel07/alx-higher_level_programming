@@ -13,7 +13,7 @@ Attributes:
     name(sqlalchemy.String): the city's name
     state_id: the city's state id
     """
-    id = Column(Integer, priimary_key=True)
+    id = Column(Integer, primary_key=True)
     name = Column(String(128), nullable=False)
     state_id = Column(Integer, ForeignKey("states.id"), nullable=False)
     
