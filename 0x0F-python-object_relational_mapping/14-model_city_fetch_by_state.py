@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-'''
-prints all the city objects from the database
-'''
+"""
+Prints all objects from database
+"""
 
 import sys
 from sqlalchemy import create_engine
 from model_city import City
 from sqlalchemy.orm import sessionmaker
 from model_state import State
+
 
 if __name__ == "__main__":
     engine = create_engine("mysql+mysqldb://{}:{}@localhost/{}"
