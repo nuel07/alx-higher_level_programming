@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""
-Defines a City model that inherits from SQLAlchemy and links to the cities
-MySQL table.
-"""
+# Defines a City model.
+# Inherits from SQLAlchemy Base and links to the MySQL table cities.
+
 from sqlalchemy import String, Column, Integer, ForeignKey
 from model_state import Base, State
+
 
 class City(Base):
     """
@@ -17,4 +17,3 @@ Attributes:
     id = Column(Integer, primary_key=True)
     name = Column(String(128), nullable=False)
     state_id = Column(Integer, ForeignKey("states.id"), nullable=False)
-    
