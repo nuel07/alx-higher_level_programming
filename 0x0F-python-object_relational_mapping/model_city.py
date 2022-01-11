@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-Define City
+Defines  City model
 '''
 from sqlalchemy import String, Column, Integer, ForeignKey
 from model_state import Base, State

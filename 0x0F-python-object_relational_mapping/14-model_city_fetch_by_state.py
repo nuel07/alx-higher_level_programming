@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""
-Prints all objects from database
-"""
+# Lists all City objects from the database hbtn_0e_14_usa.
+# Usage: ./14-model_city_fetch_by_state.py <mysql username> /
+#                                          <mysql password> /
+#                                          <database name>
 
 import sys
 from sqlalchemy import create_engine
