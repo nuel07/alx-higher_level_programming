@@ -9,4 +9,4 @@ if __name__ == "__main__":
     cur = db.cursor()
     cur.execute("""SELECT cities.id, cities.name, states.name FROM cities LEFT JOIN
     states ON cities.state_id = states.id ORDER BY cities.id ASC""")
-    print(", ".join([cty[2] for cty in cur.fetchall() if cty[4] == sys.argv[4]]))
+    print(", ".join([ct[2] for ct in c.fetchall() if ct[4] == sys.argv[4]])
