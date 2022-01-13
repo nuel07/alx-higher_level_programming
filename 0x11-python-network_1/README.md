@@ -1,0 +1,1 @@
+In this project directory I continued learning about networking in python specifically Request packages and urllib
