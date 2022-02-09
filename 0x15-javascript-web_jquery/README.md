@@ -1,0 +1,1 @@
+In this project directory, I learnt about Javascript, JQuery and Ajax.
